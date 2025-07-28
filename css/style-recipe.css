@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Georgia&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.6;
+  padding: 20px;
+  font-size: 18px;
+}
+
+header h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #4a2c2a; 
+  text-align: center;
+}
+
+a {
+  color: #7b3f00;
+  text-decoration: none;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #7b3f00;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #d3c2b3;
+  padding-bottom: 5px;
+}
+
+h3.rate {
+  margin-top: 0;
+}
+
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+form {
+  margin-top: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+fieldset {
+  border: 1.5px solid #7b3f00;
+  border-radius: 5px;
+  padding: 10px 15px;
+  max-width: 270px;
+  background-color: #fff8f0;
+}
+
+legend {
+  font-weight: bold;
+  color: #7b3f00;
+  padding: 0 5px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+label[for="easy"],
+label[for="med"],
+label[for="hard"] {
+  margin-right: 15px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: right;
+  margin-top: 30px;
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+}
